@@ -1,0 +1,21 @@
+{
+  "author": {
+    "name": "Emerson Laranja",
+    "url": "https://github.com/EmersonLaranja"
+  },
+  "engines": {
+    "node": ">=20.8.0"
+  },
+    "scripts": {
+      "tarefa-1":"npx tsc solid-tarefa-1/main.ts --outDir solid-tarefa-1/dist && node solid-tarefa-1/dist/main.js",
+      "tarefa-2":"npx tsc solid-tarefa-2/main.ts --outDir solid-tarefa-2/dist && node solid-tarefa-2/dist/main.js",
+      "tarefa-extra-2":"npx tsc solid-tarefa-2/tarefa-extra-2/main.ts --outDir solid-tarefa-2/tarefa-extra-2/dist && node solid-tarefa-2/tarefa-extra-2/dist/main.js",
+      "tarefa-3":"npx tsc solid-tarefa-3/main.ts --outDir solid-tarefa-3/dist && node solid-tarefa-3/dist/main.js",
+      "tarefa-4":"npx tsc solid-tarefa-4/main.ts --outDir solid-tarefa-4/dist && node solid-tarefa-4/dist/main.js",
+      "tarefa-5":"npx tsc solid-tarefa-5/main.ts --outDir solid-tarefa-5/dist && node solid-tarefa-5/dist/main.js"
+    },
+    "dependencies": {
+      "typescript": "^5.3.2"
+    }
+  }
+  
